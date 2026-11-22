@@ -1,6 +1,5 @@
 # PROJEKT – Textová vizitka
 # Vytvoř program, který do terminálu vypíše přehlednou osobní vizitku
-#
 # POŽADAVKY
 # 1. Vypiš jméno a příjmení
 # 2. Vypiš město, ve kterém bydlíš
@@ -33,3 +32,5 @@
 #
 # Ukázka slouží pouze jako inspirace
 # Vlastní vzhled vizitky můžeš upravit
+
+# VLASTNÍ ŘEŠENÍ:
