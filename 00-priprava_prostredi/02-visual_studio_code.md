@@ -88,12 +88,20 @@ Zachováme však zvýrazňování syntaxe, upozornění na chyby a automatické 
 
 ```jsonc
 {
+    // Automatické doplňování
     "editor.quickSuggestions": false,               // Automatické návrhy při psaní
     "editor.suggestOnTriggerCharacters": false,     // Návrhy vyvolané speciálními znaky
     "editor.inlineSuggest.enabled": false,          // Návrhy přímo v řádku
+    "editor.wordBasedSuggestions": "off",           // Návrhy slov z otevřených souborů
+    "editor.tabCompletion": "off",                  // Doplňování pomocí klávesy Tab
+    "editor.snippetSuggestions": "none",            // Návrhy připravených úryvků kódu
+
+    // Automatické uzavírání
     "editor.autoClosingBrackets": "always",         // Automatické uzavírání závorek
     "editor.autoClosingQuotes": "always",           // Automatické uzavírání uvozovek
-    "chat.disableAIFeatures": true                   // Vestavěné AI funkce VS Code
+
+    // AI
+    "chat.disableAIFeatures": true                  // Vypnutí vestavěných AI funkcí VS Code
 }
 ```
 
